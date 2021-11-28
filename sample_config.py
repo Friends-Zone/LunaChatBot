@@ -10,10 +10,10 @@ if not ENV:
   bot_token = "16901971:AAFqdM_SQE1PB2P1xLr67k"
   ARQ_API_KEY = "Get this from @ARQRobot"
   LANGUAGE = "en"
-  ID =  # your api id
+  ID = 6 # your api id
   HASH = "" # your apihash
   # Leave it as it is
-  ARQ_API_BASE_URL = "https://thearq.tech"
+  ARQ_API_BASE_URL = "https://grambuilders.tech"
 else:
   from os import environ
   bot_token = str(environ.get("TOKEN", None))
